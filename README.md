@@ -12,5 +12,6 @@ pip3 install requirements.txt
 -Run the file 
 
 root@austin:~/packetsniffer# python3 http_sniffer.py -i wlan0 --show-raw
+    #Ensure your interface is the correct one use ifconfig to check
     -The output is sniffing your own computer
 
